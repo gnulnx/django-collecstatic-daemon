@@ -29,6 +29,6 @@ Using
 
 ::
 
-   ```
-       ./manage.py watcher
-   ```
+   Using the command is as simple as running
+
+   ``` ./manage.py watcher ```

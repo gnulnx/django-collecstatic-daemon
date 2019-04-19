@@ -2,3 +2,4 @@ Django==2.2
 pandoc==1.0.2
 watchdog==0.9.0
 twine==1.13.0
+python-color-logger==0.3.7

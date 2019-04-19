@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-collecstatic-daemon',
-    version='0.2',
+    version='0.3',
     packages=find_packages(),
     include_package_data=True,
     license='GNU General Public License v3.0',  # example license
@@ -19,6 +19,7 @@ setup(
     author_email='john.furr@gmail.com',
     install_requires=[
         'watchdog',
+        'python-color-logger==0.3.7',
     ],
     classifiers=[
         'Environment :: Web Environment',

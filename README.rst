@@ -27,8 +27,8 @@ Install
 Using
 =====
 
-::
+Using the command is as simple as running
 
-   Using the command is as simple as running
+::
 
    ./manage.py watcher

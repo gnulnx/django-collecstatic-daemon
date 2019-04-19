@@ -1,10 +1,11 @@
 django-collectstatic-daemon
 ===========================
 
-This is a simple daemon that will your project directory and
+This is a simple daemon that will watch your project directory and
 collectstatic files whenever there is a change. This is often times
 useful when you are working with node/npm project and you need to
-collectstatic files after npm builds the minified JS files.
+collectstatic files after npm build/prod/watch converts the statis
+resources.
 
 Install
 =======
@@ -28,4 +29,6 @@ Using
 
 ::
 
-   ```./manage.py watcher```
+   ```
+       ./manage.py watcher
+   ```

@@ -27,4 +27,4 @@ after npm build/prod/watch converts the statis resources.
 
     Using the command is as simple as running
 
-    ``` ./manage.py watcher ```
+    ./manage.py watcher

@@ -31,4 +31,4 @@ Using
 
    Using the command is as simple as running
 
-   ``` ./manage.py watcher ```
+   ./manage.py watcher

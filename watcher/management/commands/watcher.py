@@ -29,7 +29,7 @@ class Command(BaseCommand):
         except AttributeError:
             path = '.'
 
-        print("Watching: %s", % path)
+        print("Watching: %s" % path)
         event_handler = EventHandler()
         observer = Observer()
         observer.schedule(event_handler, path, recursive=True)

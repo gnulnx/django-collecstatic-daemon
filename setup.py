@@ -17,6 +17,9 @@ setup(
     long_description=README,
     author='John Furr',
     author_email='john.furr@gmail.com',
+    install_requires=[
+        'watchdog',
+    ],
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',

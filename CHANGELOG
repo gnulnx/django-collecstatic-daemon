@@ -1,0 +1,7 @@
+Change Log
+==========
+
+
+V0.3
+==========
+Only run collectstatic 1 time for all events that happen in a half second interval
